@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0%;
+}
+
+h1, h2 {
+  color: white;
+}
+
+h1, h4 {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 4%;
+}
+
+h3 {
+  margin-bottom: 3%;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+h5 {
+  margin-bottom: 1%;
+}
+
+h6 {
+  margin-bottom: 0.5%;
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(../images/skateboarder-img-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  padding: 100px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-navigation li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-container, .nav-links, .icon-links {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn-header {
+  background-color: #FFFFFF;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-image {
+  position: relative;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.favorite-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+}
+
+.favorite-icon a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-article {
+  background-color: #FFFFFF;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-family: 'Righteous', cursive;
+  border: 2px solid black;
+}
+
+.btn-article-center {
+  display: flex;
+  justify-content: center;
+}
+
+.display-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bigbtn {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+}
+
+.btncategory {
+  background-color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+main h2 {
+  font-family: 'Righteous', cursive;
+}
+
+main h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  text-shadow: 0px 2px 2px rgba(150, 150, 150, 0.79);
+}
+
+article {
+  margin: 10px 10px;
+}
+
+article img {
+  width: 100%;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+li {
+  font-weight: 500;
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+/*
+.icon-links {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+/* .navline li {
+  display: inline-block;
+  margin: 0px 30px;
+} */
+
+.vertical-line {
+  border-left: 1px solid #000;
+  height: 20px;
+  padding-left: 25px;
+}
+
+.categoryline {
+  margin: 0;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.promoline {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promoline li {
+  font-size: 2rem;
+}
+
+.promoline span {
+  font-size: 1.5rem;
+  padding-left: 15px;
+}
+
+.menuicon {
+  width: 60%;
+}
+
+.fas {
+  font-size: 2.5rem;
+}
+
+.promoicon {
+  max-width: 5%;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 2rem;
+}
+
+.articlename {
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+}
+
+.promotion {
+  display: inline-block;
+  background-image: url("../images/skateboarder-img-6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1100px;
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-weight: 500;
+  font-size: 2.8rem;
+  margin-top: 2%;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.promotion-center {
+  display: flex;
+  justify-content: center;
+}
+
+.promotion a {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+.promotion p {
+  margin-top: 25px;
+}
+
+.display-promo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter {
+  display: flex;
+  background-image: url("../images/skateboarder-img-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+  text-align: left;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.newsletter p {
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+}
+
+.btn-newsletter {
+  background-color: #C4C4C4;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+.newsletter input {
+  background-color: #C4C4C4;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.newsletter-center {
+  display: flex;
+  justify-content: center;
+}
+
+.menuicon-footer {
+  width: 70%;
+}
+
+.modes-paiement p {
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+}
+
+.modes-paiement i {
+  font-size: 4rem;
+}
+
+.service-clientele p {
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+}
+
+.service-clientele a {
+  text-decoration: none;
+  color: black;
+}
+
+.service-clientele ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.social-medias {
+  display: flex;
+}
+
+.social-medias p {
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+  padding-right: 15px;
+}
+
+.social-medias i {
+  font-size: 2rem;
+}
+
+.social-medias a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+footer .fab {
+  padding-left: 5px;
+}
+/* .row .col:nth-child(0n+1) {
+  padding-left: 0px;
+}
+
+.row .col:nth-child(0n+4) {
+  padding-right: 0px;
+} */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive; */
